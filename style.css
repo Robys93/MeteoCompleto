@@ -1,0 +1,36 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto; /* centra la schermata */
+  max-width: 540px; /* larghezza massima */
+}
+.panel {
+  margin: 16px;
+  padding: 16px;
+  border-bottom: 16px;
+  background-color: cyan;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* altezza della schermata */
+}
+.logo {
+  width: 32px; /* larghezza del logo */
+  height: 32px; /* altezza automatica */
+}
+body {
+  background-color: skyblue; /* colore di sfondo */
+  font-family: Arial, sans-serif; /* font */
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px; /* margine inferiore */
+}
